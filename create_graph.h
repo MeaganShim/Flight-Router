@@ -1,12 +1,12 @@
 /*
- * mstprimtest.h
+ * create_graph.h
  *
  *  Created on: Apr 7, 2021
  *      Author: Meagan
  */
 
-#ifndef MSTPRIMTEST_H_
-#define MSTPRIMTEST_H_
+#ifndef CREATE_GRAPH_H_
+#define CREATE_GRAPH_H_
 
 #include <iostream>
 #include <vector>
@@ -90,4 +90,4 @@ public:
 	bool in_pq(int node);
 };
 
-#endif /* MSTPRIMTEST_H_ */
+#endif /* CREATE_GRAPH_H_ */
