@@ -10,7 +10,7 @@
 #include <limits>
 #include <vector>
 #include <iomanip>
-#include "mstprimtest.h"
+#include "create_graph.h"
 using namespace std;
 
 // EDGE IMPLEMENTATION
