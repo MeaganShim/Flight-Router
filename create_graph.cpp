@@ -455,14 +455,7 @@ int main() {
 //			graph1.print_test();
 		}
 		else if(command == "i"){
-			// insert edge between nodes u and v with weight w
-			// value of -2 may change on server
-//			string str_u = input.substr(input.find(" ") + 1, input.find(";") - 2);
-//			string str_v = input.substr(input.find(";") + 1, input.find(";") - 2);
-			// may need to remove trailing zeros when running locally
-//			string str_w = input.substr(input.find(str_v) + 2, input.length());
-
-			// new string manipulations
+			//string manipulations
 			string params = input.substr(input.find(" ") + 1);
 			int semi_colon1 = params.find(";");
 			string str_u = params.substr(0, semi_colon1);
@@ -486,11 +479,6 @@ int main() {
 //			graph1.print_test();
 		}
 		else if(command == "e"){
-			//erase edge between node v and u
-			// values of +1 and -2 may change once running on server
-//			string str_u = input.substr(input.find(" ") + 1, input.find(";") - 2);
-//			string str_v = input.substr(input.find(";") + 1, input.find(";") + 1);
-
 			// new string manipulations
 			string params = input.substr(input.find(" ") + 1);
 			int semi_colon1 = params.find(";");
@@ -512,13 +500,7 @@ int main() {
 		}
 		else if(command == "adjacent"){
 			//checks if there is an edge between nodes u and v of weight w
-			// value of -2 may change on server
-//			string str_u = input.substr(input.find(" ") + 1, input.find(";") - 2);
-//			string str_v = input.substr(input.find(";") + 1, input.find(";") - 2);
-//			// may need to remove trailing zeros when running locally
-//			string str_w = input.substr(input.find(str_v) + 2, input.length());
-
-			// new string commands
+			// string commands
 			string params = input.substr(input.find(" ") + 1);
 			int semi_colon1 = params.find(";");
 			string str_u = params.substr(0, semi_colon1);
